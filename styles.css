@@ -1,0 +1,40 @@
+@media (max-width: @screen-xs) {
+    body{font-size: 10px;}
+	  font-size: 1.4em;
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 14px;}
+	  font-size: 1.4em;
+}
+
+
+  
+
+
+#container {
+  visibility: hidden;
+}
+
+#loader {
+  color: #00cccc;
+  height: 100px;
+  left: 40%;
+  position: absolute;
+  top: 50%;
+  width: 50%;
+}
+
+button {
+  margin: 30px 0 0 10px;
+}
+
+#target {
+  border: 1px dashed;
+  height: 200px;
+  padding: 25px;
+  position: relative;
+  text-align: justify;
+  color: gray;
+  user-select: none;
+}
